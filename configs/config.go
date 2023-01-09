@@ -53,3 +53,7 @@ func Load() error {
 	}
 	return nil
 }
+
+func GetDB() DBConfig {
+	return cfg.DB
+}
