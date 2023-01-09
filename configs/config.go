@@ -57,3 +57,7 @@ func Load() error {
 func GetDB() DBConfig {
 	return cfg.DB
 }
+
+func GetServerPort() string {
+	return cfg.API.Port
+}
