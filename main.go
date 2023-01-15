@@ -9,7 +9,7 @@ import (
 	"github.com/go-chi/chi"
 )
 
-func Main() {
+func main() {
 	err := configs.Load()
 	if err != nil {
 		panic(err)

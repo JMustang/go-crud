@@ -1,0 +1,8 @@
+[api]
+port = "9000"
+
+[database]
+host = "localhost"
+user = "user_go"
+pass = "1122"
+name = "crud_go"
